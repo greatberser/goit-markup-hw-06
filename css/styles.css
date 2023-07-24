@@ -1124,7 +1124,40 @@ width: 100%;
   .menu-container .item-svg-link:hover,
   .menu-container .item-svg-link:focus {
     background-color: #404BBF;
-}
+  }
+
+  .address-list-mobile{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    margin-top: 284px;
+    margin-bottom: 48px;
+    white-space: nowrap;
+  }
+
+  .address-link-mobile.special{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.045em;
+    color: #4D5AE5;
+  }
+
+  .address-link-mobile{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.025em;
+    color: #434455;
+  }
+
+  .menu-container .social-list-mobile{
+    gap: 56px;
+  }
+  
 }
 
 @media (max-width: 525px){
