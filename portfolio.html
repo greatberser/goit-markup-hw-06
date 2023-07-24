@@ -46,6 +46,11 @@
                 </li>
             </ul>
         </address>
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg class="icon" width="32" height="22">
+                <use href="./images/icons.svg#icon-menu-burger"></use>
+            </svg>
+        </button>
         </div>
     </header>
 
@@ -282,5 +287,57 @@
             
         </div>
     </footer>
+
+    <div class="menu-container js-menu-container">
+        <button class="close-button menu-toggle js-close-menu">
+            <svg class="modal-icon icon" width="8" height="8">
+                <use href="./images/icons.svg#close"></use>
+            </svg>
+          </button>    
+
+          <ul class="mobile-menu">
+            <li><a href="./index.html" class="link">Studio</a></li>
+            <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+            <li><a href="" class="link">Contacts</a></li>
+          </ul>
+
+          <ul class="list">
+              <li><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
+              <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+          </ul>
+
+          <ul class="section-list list">
+            <li class="item-svg">
+                <a class="item-svg-link link" href="">
+                    <svg class="icon" width="24" height="24">
+                        <use href="./images/icons.svg#instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="item-svg">
+                <a class="item-svg-link link" href="">
+                    <svg class="icon" width="24" height="24">
+                        <use href="./images/icons.svg#twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="item-svg">
+                <a class="item-svg-link link" href="">
+                    <svg class="icon" width="24" height="24">
+                        <use href="./images/icons.svg#facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="item-svg">
+                <a class="item-svg-link link" href="">
+                    <svg class="icon" width="24" height="24">
+                        <use href="./images/icons.svg#linkendin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
