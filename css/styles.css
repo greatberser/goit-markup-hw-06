@@ -1204,6 +1204,11 @@ width: 100%;
   .list-category-item{
     width: 100%;
   }
+
+  .modal{
+    top: 50px;
+    transform: translate(-50%) scale(1);
+  }
 }
 
 @media (min-width: 645px) {
@@ -1296,6 +1301,7 @@ width: 100%;
   .menu-container .social-list-mobile{
     gap: 24px;
   }
+  
 }
 
 @media (max-width:410px){
